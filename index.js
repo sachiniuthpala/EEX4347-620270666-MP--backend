@@ -4,7 +4,9 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const app = express();
+
 const authRoutes = require('./routes/auth');
+
 
 // CORS configuration
 app.use(cors({
